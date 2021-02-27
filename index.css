@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+  
+body, p, h1, h2, h3 ,h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 5000px;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    background: green;
+    display: flex;
+}
+
+.header-logo {
+    width: 30%;
+    height: 120px;
+    background: red;
+    display: flex;
+}
+
+.search {
+    width: 40%;
+    height: 120px;
+    background: blue;
+}   
+
+.content {
+    width: 30%;
+    height: 120px;
+    background: brown;
+}
+
+.body-common {
+    width: 100%;
+    height: 4000px;
+    background: whitesmoke;
+}
+
+.category {
+    width: 100%;
+    height: 400px;
+    background: wheat;
+    display: flex;
+}
+
+.categories {
+    width: 22%;
+    height: 400px;
+    background: yellow;
+}
+
+.img-banner {
+    width: 56%;
+    height: 400px;
+    background: white;
+}
+
+.fast-items {
+    width: 22%;
+    height: 400px;
+    background: tomato;
+}
+
+.food {
+    width: 100%;
+    height: 2600px;
+    background: teal;
+}
+
+.recipe {
+    width: 22%;
+    height: 2000px;
+    background: violet;
+}
+
+.recipe-img {
+    width: 100%;
+    height: 400px;
+    background: tomato;
+}
+
+.hot-product {
+    width: 100%;
+    height: 500px;
+    background: yellowgreen;
+}
+
+.title-hot {
+    width: 100%;
+    height: 100px;
+    background: rgb(66, 12, 12);
+}
+
+.hot-img {
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+
+.hotline-security {
+    width: 100%;
+    height: 500px;
+    background: rgb(213, 224, 190);
+}
+
+.phone-hotline {
+    width: 100%;
+    height: 100px;
+    background: rgb(240, 133, 133);
+}
+
+.shipping-map {
+    width: 100%;
+    height: 100px;
+    background: rgb(39, 24, 24);
+}
+
+.info-security {
+    width: 100%;
+    height: 100px;
+    background: rgba(170, 147, 147, 0);
+}
+
+.vip-member {
+    width: 100%;
+    height: 100px;
+    background: tomato;
+}
+
+.change-return {
+    width: 100%;
+    height: 100px;
+    background: rgb(110, 97, 95)
+}
+
+.new-posts {
+    width: 100%;
+    height: 600px;
+    background: yellow
+}
+
+.title-news {
+    width: 100%;
+    height: 100px;
+    background: violet;
+}
+
+.img-post {
+    width: 100%;
+    height: 150px;
+    background: red;
+} 
+
+.feeling {
+    width: 100%;
+    height: 100px;
+    background: rgba(245, 16, 245, 0.952);
+} 
+
+.img-post-1 {
+    width: 100%;
+    height: 150px;
+    background: red;
+} 
+
+.feeling-1 {
+    width: 100%;
+    height: 100px;
+} 
+
+.reviews {
+    width: 100%;
+    height: 300px;
+    background: cadetblue;
+}
