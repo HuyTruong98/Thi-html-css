@@ -46,6 +46,10 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
     background-color: #37b400;
 }
 
+.category-second select option {
+    background-color: white;
+}
+
 .header-1 .logo .shipping-1 {
     padding-bottom: 20px;
 } 
@@ -88,10 +92,23 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
     background-color: #6bce12;
 }
 
+.search button:hover {
+    background-color: #777;
+}
+
 .contact-me {
     color: white;
-    padding-top: 28px;
+    padding-top: 12px;
     font-size: 14px;
+}
+
+.contact-me .sales-off a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-me .sales-off a:hover {
+    color: black;
 }
 
 .content {
@@ -109,6 +126,10 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
     font-size: 28px;
 }
 
+.content-icon .icon-1:hover {
+    color: rgb(56, 52, 52);
+}
+
 .price {
     padding-left: 400px;
     color: white;
@@ -118,6 +139,15 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
     color: #fff;
     padding-top: 12px;
     padding-left: 90px;
+}
+
+.reg-log a {
+    text-decoration: none;
+    color: white;
+}
+
+.reg-log a:hover {
+    color: black;
 }
 
 .reg-log b {
@@ -133,26 +163,190 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
 .category {
     width: 100%;
     height: 400px;
-    background: wheat;
     display: flex;
 }
 
 .categories {
     width: 22%;
     height: 400px;
-    background: yellow;
+    
+}
+
+.categories .categories-1 {
+    width: 85%;
+    height: 360px;
+    background-color: #d6d6d675;
+    margin-left: 20px;
+}
+
+.categories-1 ul li {
+    list-style: none;
+    padding-bottom: 9px;
+}
+
+.categories-1 ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: #666; 
+}
+
+.categories-1 ul li a:hover {
+    color: red;
+}
+
+.categories-1 ul li a .icon-2 {
+   margin-right: 10px;
+   color: #666;
+   font-size: 18px;
+}
+
+.categories-1 ul li .icon-3 {
+    margin-right: 10px;
+    color: goldenrod;
+    font-size: 15px;
+ }
+
+.categories-1 ul li a .right-1 {
+    position: relative;
+    left: 110px;
+    font-size: 13px;
+    opacity: 0.5;
+}
+.categories-1 ul li a .right-2 {
+    position: relative;
+    left: 130px;
+    font-size: 13px;
+    opacity: 0.5;
+}
+.categories-1 ul li a .right-3 {
+    position: relative;
+    left: 140px;
+    font-size: 13px;
+    opacity: 0.5;
+}
+.categories-1 ul li a .right-4 {
+    position: relative;
+    left: 112px;
+    font-size: 13px;
+    opacity: 0.5;
+}
+.categories-1 ul li a .right-5 {
+    position: relative;
+    left: 80px;
+    font-size: 13px;
+    opacity: 0.5;
+}
+.categories-1 ul li a .right-6 {
+    position: relative;
+    left: 58px;
+    font-size: 13px;
+    opacity: 0.5;
 }
 
 .img-banner {
     width: 56%;
     height: 400px;
-    background: white;
+}
+
+.slide-show {
+    width: 100%;
+    height: 350px;
+    margin-top: 25px;
 }
 
 .fast-items {
     width: 22%;
     height: 400px;
-    background: tomato;
+}
+
+.item-five-stars {
+    width: 80%;
+    height: 300px;
+    margin-top: 22px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.title-fast {
+    width: 100%;
+    height: 50px;
+    background: #6bce12;
+    color: white;
+    padding-top: 12px;
+    padding-left: 15px;
+}
+
+.item-five-stars-1 {
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+.img-item {
+    width: 30%;
+    height: 75px;
+}
+
+.stars-title-price {
+    width: 70%;
+    height: 75px;
+    padding-left: 10px;
+    background: white;
+}
+
+.stars-title-price .stars {
+    color: #6bce12;
+    font-size: 10px;
+}
+
+.stars-title-price p {
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.stars-title-price p:hover {
+    color: #6ace12;
+}
+
+.stars-title-price strong {
+    color: #6bce12;
+    font-size: 18px;
+}
+
+.item-five-stars-2 {
+    width: 100%;
+    height: 100px; 
+    display: flex;
+}
+
+.img-item-1 {
+    width: 30%;
+    height: 75px;
+}
+
+.stars-title-price-1 {
+    width: 70%;
+    height: 100px;
+    padding-left: 10px;
+}
+
+.stars-title-price-1 .stars {
+    color: #6bce12;
+    font-size: 10px;
+}
+
+.stars-title-price-1 p {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.stars-title-price-1 p:hover {
+    color: #6ace12;
+}
+
+.stars-title-price-1 strong {
+    color: #6bce12;
+    font-size: 18px;
 }
 
 .food {
