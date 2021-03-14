@@ -9,7 +9,7 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
 
 .container {
     width: 100%;
-    height: 5000px;
+    height: 4590px;
 }
 
 .header {
@@ -156,7 +156,7 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
 
 .body-common {
     width: 100%;
-    height: 4000px;
+    height: 3900px;
     background: white;
 }
 
@@ -637,8 +637,7 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
 
 .product {
     width: 78%;
-    height: 3000px;
-    background: yellowgreen;
+    height: 3500px;
 }
 
 .img-card {
@@ -686,7 +685,6 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
 .product-all {
     width: 100%;
     height: 750px;
-    background: violet;
 }
 
 .product-title {
@@ -726,7 +724,7 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
     width: 17.7%;
     height: 100px;
     margin-left: 10px;
-    margin-right: 25px;
+    margin-right: 18px;
 }
 
 .price-star-1 {
@@ -740,18 +738,19 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
 .price-title-1 {
     width: 100%;
     height: 30px;
+    text-align: center;
 }
 
 .price-title-1 a {
     text-decoration: none;
     color: #777;
-    padding-left: 18px;
     font-size: 14px;
 }
 
 .price-true {
     width: 100%;
     height: 50px;
+    text-align: center;
 }
 
 .price-true strong {
@@ -777,7 +776,6 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
     display: flex;
     padding-top: 10px;
     padding-left: 15px;
-    background: white;
 }
 
 .product-img-1 {
@@ -841,7 +839,6 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
 .product-img-lv2-card {
     width: 100%;
     height: 300px;
-    background: powderblue;
     display: flex;
     padding-top: 10px;
     padding-left: 20px;
@@ -850,20 +847,18 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
 .product-img-lv2-card-1 {
     width: 20%;
     height: 280px;
-    background: purple;
 }
 
 .product-img-lv2-card-2 {
     width: 78%;
     height: 280px;
-    background: rgb(56, 52, 52);
     display: flex;
 }
 
 .product-img-lv2-card-2-item1 {
     width: 25%;
     height: 280px;
-    background: red;
+    padding-left: 10px;
 }
 .product-img-lv2-card-2-item1-lv1 {
     width: 100%;
@@ -936,4 +931,250 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
 .item-new-img-2-card {
     width: 16.7%;
     height: 290px;
+}
+
+.just-for-you {
+    width: 100%;
+    height: 440px;
+}
+
+.just-for-you-title-1 {
+    width: 22%;
+    height: 50px;
+    background: #6bce12;
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+    border-radius: 3px;
+    margin-top: 49px;
+    margin-left: 20px;
+}
+
+.just-for-you-title-2 {
+    width: 73%;
+    height: 35px;
+    font-size: 9px;
+    text-align: right;
+    padding-top: 80px;
+}
+
+.img-banner-title {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    padding-top: 25px;
+}
+
+.img-banner-title-1 {
+    width: 48%;
+    height: 200px;
+    margin-right: 40px;
+}
+
+.img-banner-title-2 {
+    width: 48%;
+    height: 200px;
+}
+
+.best-saller-product-reviews {
+    width: 100%;
+    height: 500px;
+}
+
+.best-saller-product-reviews-title {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding-top: 48px;
+}
+.best-saller-product-reviews-title-1 {
+    width: 45%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+}
+.best-seller {
+    width: 30%;
+    height: 50px;
+    margin-right: 10px;
+    padding-top: 25px;
+}
+.new-item {
+    width: 30%;
+    height: 50px;
+    margin-right: 10px;
+    padding-top: 25px;
+}
+.product-review {
+    width: 35%;
+    height: 50px;
+    padding-top: 25px;
+}
+
+.best-saller-product-reviews-title-2 {
+    width: 52%;
+    height: 50px;
+}
+.best-saller-product-reviews-title-2 p {
+    font-size: 13px;
+    text-align: right;
+    padding-top: 30px;
+    opacity: 0.5;
+}
+
+.best-saller-product-reviews-img {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.best-saller-product-reviews-img-1 {
+    width: 25%;
+    height: 400px;
+}
+.best-saller-product-reviews-img-1-img {
+    width: 100%;
+    height: 280px;
+}
+.best-saller-product-reviews-img-1-title {
+    width: 100%;
+    height: 120px;
+}
+
+.brand-co-founder {
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+
+.brand-1 {
+    width: 16.7%;
+    height: 150px;
+}
+.brand-1-img {
+    width: 70%;
+    height: 90px;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+}
+
+.sign-up-all {
+    width: 95%;
+    height: 100px;
+    background: #58bb47;
+    margin-left: 40px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.sign-up-all-1 {
+    width: 30%;
+    height: 100px;
+    display: flex;
+    padding-top: 10px;
+}
+
+.sign-up-all-icon {
+    width: 10%;
+    height: 40px;
+    background: #00000066;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.sign-up-all-icon .fb {
+    color: white;
+}
+.sign-up-all-icon a .fb:hover {
+    color: #58bb47;
+}
+
+.sign-up-all-2 {
+    width: 70%;
+    height: 100px;
+    display: flex;
+}
+
+.sign-up-all-title {
+    width: 50%;
+    height: 60px;
+    padding-top: 40px;
+    padding-left: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.sign-up-all-input {
+    width: 50%;
+    height: 60px;
+    padding-top: 35px;
+}
+.sign-up-all-input input {
+    width: 60%;
+    height: 38px;
+    border-radius: 6px;
+}
+.sign-up-all-input button {
+    width: 18%;
+    height: 38px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+}
+
+.about-us-service {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding-left: 50px;
+}
+
+.about-us-service-img {
+    width: 16%;
+    height: 60px;
+}
+.about-us-service-img-1 {
+    width: 50%;
+    height: 60px;
+}
+.about-us {
+    width: 16%;
+    height: 60px;
+    padding-top: 35px;
+}
+.service {
+    width: 16%;
+    height: 60px;
+    padding-top: 35px;
+}
+.filter-item {
+    width: 16%;
+    height: 60px;
+    padding-top: 35px;
+}
+.customer-support {
+    width: 16%;
+    height: 60px;
+    padding-top: 35px;
+}
+.useful-information {
+    width: 16%;
+    height: 60px;
+    padding-top: 35px;
+}
+
+.copy-right {
+    width: 100%;
+    height: 70px;
+    background: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 25px;
 }
